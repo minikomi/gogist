@@ -1,0 +1,16 @@
+#GoGist
+
+Anonymist gists are go!
+
+
+## build
+go build gogist.go
+
+## use
+
+gogist file1.a file2.b *.c 
+
+## flags
+
+* -d [optional]: description string
+* -p [optional]: private (boolean)
