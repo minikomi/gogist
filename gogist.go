@@ -43,7 +43,7 @@ func main() {
 	files := map[string]GistFile{}
 
 	for _, filename := range filenames {
-		fmt.Println("Checking file:", filename)
+		fmt.Println("Checking file: ", filename)
 		content, err := ioutil.ReadFile(filename)
 		if err != nil {
 			log.Fatal("File Error: ", err)
