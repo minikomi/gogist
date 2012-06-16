@@ -1,7 +1,6 @@
 #GoGist
 
-Anonymist gists are go!
-
+Anonymous gists are go!
 
 ## build
 go build gogist.go
